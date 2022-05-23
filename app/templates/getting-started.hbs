@@ -1,0 +1,8 @@
+{{page-title "GettingStarted"}}
+
+<div class="h1 mb-4">Getting Started</div>
+
+{{#each @model as |started|}}
+    <div class="h3">{{started.contentTitle}}</div>
+    <p>{{started.contentText}}</p>
+{{/each}}

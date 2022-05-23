@@ -1,0 +1,8 @@
+{{page-title "Concept1"}}
+
+<div class="h1 mb-4">Concept 1</div>
+
+{{#each @model as |concept1|}}
+    <div class="h3">{{concept1.contentTitle}}</div>
+    {{{concept1.contentText}}}
+{{/each}}
