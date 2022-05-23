@@ -13,4 +13,5 @@ export default class ListOfContentsMobileviewComponent extends Component {
       this.toshowlist = false;
     }
   }
+  console.log("Hello");
 }
